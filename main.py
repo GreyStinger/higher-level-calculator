@@ -1,1 +1,2 @@
-# TODO simulate using this package in a real environment
+# TODO setup logging for this package
+# TODO setup decompiler for this package

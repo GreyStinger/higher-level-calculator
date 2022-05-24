@@ -4,7 +4,7 @@ import logging
 import sys
 
 
-# create a logger setup function
+# logger setup function
 def setup_logger(log_level = Optional[str]) -> bool:
     """
     Creates a default logger for the package.
@@ -12,7 +12,7 @@ def setup_logger(log_level = Optional[str]) -> bool:
     :param log_level: logging level to use
     :return: True if logger was created successfully, False if not
     """
-    # create logger
+    
     try: 
         logger = logging.getLogger('logger')
         logger.setLevel(logging.DEBUG)
