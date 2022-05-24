@@ -1,5 +1,5 @@
 # TODO setup logging for this package
-# TODO setup decompiler for this package
+# TODO: setup decompiler for this package
 
 from asyncio.log import logger
 import core
