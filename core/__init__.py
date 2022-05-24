@@ -1,4 +1,4 @@
 # TODO start calculation beginning
 
-import log.logging
+from log import setup_logger
 import calc.manager
