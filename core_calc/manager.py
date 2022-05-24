@@ -1,6 +1,10 @@
 # TODO write the management system for forwarding, retrieving and handling inputs and outputs to and from the decompiler
-from .calc_recompiler import Recompiler
+import decompile
 
 
-def recompile(equation):
-    recompiler = Recompiler(equation=equation)
+class Calculator:   
+    def __init__(self) -> None:
+        pass
+
+    def runBasic(self) -> None:
+        pass
